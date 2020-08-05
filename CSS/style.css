@@ -31,11 +31,7 @@ section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+
 a {
   text-decoration: none;
 }
@@ -63,8 +59,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.28px;
 }
-.site-nav {
-}
+
 .site-nav .link {
   position: relative;
   margin-right: 50px;
