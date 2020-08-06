@@ -9,7 +9,6 @@ html {
 }
 
 .features .container {
-  background-color: seashell;
   @media screen and (max-width: 767px) {
     margin: 84px 31px;
   }
@@ -47,7 +46,7 @@ h3 {
     display: block;
     width: 60px;
     height: 1px;
-    background-color: cadetblue;
+    background-color: #303030;
   }
 }
 h2 {
@@ -80,10 +79,6 @@ ul {
   margin: 0;
 }
 sup {
-  /*position: absolute;
-  right: 0;
-  top: 0;*/
-
   vertical-align: sub;
   font-family: Open Sans;
   font-style: normal;
@@ -95,16 +90,6 @@ sup {
   color: #ff6c00;
   margin-left: 2px;
 }
-
-/*@media screen and (max-width: 767px) {
-    min-width: 194px;
-  }
-  @media screen and (min-width: 768px) {
-    min-width: 210px;
-  }
-  @media screen and (min-width: 1200px) {
-    min-width: 170px;
-  }*/
 
 .achievs {
   position: relative;
@@ -139,7 +124,6 @@ sup {
   flex-wrap: wrap;
   max-height: 331px;
   max-width: 417px;
-  background-color: silver;
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
@@ -161,18 +145,13 @@ sup {
   }
 
   .item:nth-child(2n) {
-    background-color: orange;
-
     margin-left: 30px;
   }
   .item:nth-child(2) {
-    background-color: orange;
     margin-top: 35px;
     margin-bottom: 30px;
   }
   .item:nth-child(3) {
-    background-color: orange;
-
     margin-top: -30px;
   }
 }
